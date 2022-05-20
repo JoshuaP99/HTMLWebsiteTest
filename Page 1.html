@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .center {
+        text-align: center
+    }
+    </style>
+    
+    <style>
+    .middle {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      </style>
 <body>
     
-    <h1>Contact</h1>
+    <h1 class="center">Contact</h1>
     
     <div>
-        <a href="Index.html">Home</a>
-        <a href="Page 1.html">Contact</a>
-        <a href="Page 2.html">About</a>
+        <a href="Index.html"><p class="center">Home</p></a>
+        <a href="Page 1.html"><p class="center">Contact</p></a>
+        <a href="Page 2.html"><p class="center">About</p></a>
     </div>
 
-    <table>
+    <table class="middle">
         <tr>
             <th>Site</th>
             <th>Link</th> 
@@ -31,12 +43,12 @@
         </tr>
     </table>
 
-    <form>
+    <form class="center">
         <h2>Contact Us</h2>
         <input type="text" name="firstName" placeholder="First Name">
-        <input type="text" name="lastName" placeholder="Last Name">
-        <input type="text" name="phoneNumber" placeholder="Phone Number">
-        <input type="submit" value="Submit">
+        <br><input type="text" name="lastName" placeholder="Last Name">
+        <br><input type="text" name="phoneNumber" placeholder="Phone Number">
+        <br><input type="submit" value="Submit">
     </form>
 </body>
 </html>
