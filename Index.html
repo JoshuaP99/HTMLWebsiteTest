@@ -5,63 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"/>
 </head>
-    <!--The center style is used to center the text-->
-    <style>
-    .center {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    </style>
-        
-    <!--The middle style to center the image-->
-    <style>
-    .middle {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20%;
-    }
-    </style>
-<body>
-
-    <h1 class="center">Home</h1>
-    
+<body>   
     <!--The live links to each of the pages. Each link is directed towards another page
     in the HTML file-->
-    <div>
-        <a href="Index.html"><p class="center">Home</p></a>
-        <a href="Page 1.html"><p class="center">Contact</p></a>
-        <a href="Page 2.html"><p class="center">About</p></a>
-    </div>
-
-    <!--This adds the image from the web to link into the home page
-    The image link comes from a local file so it is a lives in the repository-->
-    <img src="photos/Exterior.jpg" alt="Render" class="middle">
+    <nav class="navbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link">					
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"/></svg>
+					<span class="link-text">Home</span>
+				</a>
+			</li>
+			
+			<li class="nav-item">
+				<a href="Page 1.html" class="nav-link">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg>
+					<span class="link-text">Contact</span>
+				</a>
+			
+			</li>
+			
+			<li class="nav-item">
+				<a href="Page 2.html" class="nav-link">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352z"/></svg>
+					<span class="link-text">About</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
    
-    <h2 class="center">Welcome</h2>
+    <main>
+        <h1>Home</h1>
     
-    <p class="center">
-        Hello! My name is Joshua and I've been working in the architecture 
-        world since 2020 working as an intern architect/draftsman. I also have experience
-        in the IT world as well which I found to be one of the most rewarding experiences
-        I've had in my professional career.
-    </p>
-    
-    <p class="center">
-        With my recent dive into software development I have expanded my skillset to include programs
-        such as:
-    </p>
-    
-    <ul class="middle">
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Revit</li>
-        <li>AutoCAD</li>
-        <li>Lumion</li>
-    </ul>
+        <br><p>
+            Hello! My name is Joshua and I've been working in the architecture 
+            world since 2020 working as an intern architect/draftsman. I also have experience
+            in the IT world as well which I found to be one of the most rewarding experiences
+            I've had in my professional career.
+        </p>
+        
+        <br><p>
+            With my recent dive into software development I have expanded my skillset to include programs
+            such as:
+        </p>
+        
+        <br><ul>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Revit</li>
+            <li>AutoCAD</li>
+            <li>Lumion</li>
+        </ul>
+    </main>
 </body>
 </html>
